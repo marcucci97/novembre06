@@ -1,0 +1,2 @@
+# novembre06
+Esercizio
