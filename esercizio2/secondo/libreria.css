@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body { 
+	background-color: lightpink;
+	font-family: Helvetica, Verdana;
+}
+
+#testa { 
+	background-color: lightpink; 
+	color: black; 
+	text-align: center; 
+	font-size: 30px; 
+	padding: 10px; 
+}
+
+.primo-box {
+	width: 950px;
+	margin: 2px 250px 2px 250px;
+	border: 1px solid black;
+	background-color: white;
+}	
+
+/* i 6 riquadri */
+.box-esterno {
+    float: left;
+    width: 310px;                   /* 310 x 3 colonne = 90% di spazio occupato */
+    margin: 2px 2px 2px 2px;
+    border: 1px solid black;
+    padding-top: 1px;
+    background-color: white;
+    text-align: center;        
+}
+/* Riquadro più interno (Bordo Nero) */
+.box-interno {
+    border: 1px solid black;
+    padding: 8px;
+    background-color: white;
+    width: fit-content;
+    margin: auto;
+}
+
+/* Immagini */
+.box-interno img {
+    width: 200px;
+    height: auto;
+}
+
+
+/* per resettare il float */
+.clear {
+    clear: both;
+}
+
+
+
+
+
